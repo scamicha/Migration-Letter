@@ -47,7 +47,7 @@ Migration of gas giant planets due to interactions with a circumstellar gas disk
 
 To improve our understanding of how planets migrate in GI-active disks that are not fragmenting, we have begun a systematic study, using numerical 3D radiative hydrodynamics, where we investigate the effects on both the disk and the planet of inserting a planet-mass object into disks susceptible to GIs. Using techniques deployed in earlier research by our group (Pickett et al. 2003; Mej\'ia et al. 2005; Cai et al. 2006, 2008; Boley et al 2006, 2007b), we can identify the dominant spiral waves in a simulation and analyze how the waves interact with the planet's motion. Our goal is to determine both the effect of giant planets on GIs and the effect of GIs on planet migration. Because GIs are sensitive to radiative physics, we use a well-tested radiative scheme (Boley et al. 2007b) and realistic opacities (D'Alessio et al. 2001).  
 
-Section 2 below presents our numerical methods and initial conditions.  We describe and discuss the simulation results in Section 3, and summarize our main conclusions in Section 4.  
+Section 2 below presents our numerical methods and initial conditions.  We describe the simulation results in Section 3, and discussion them in Section 4.  
 
 \section{Computational Methodology}
 
@@ -71,34 +71,36 @@ This Letter presents three simulations. The first, which we call the fiducial ru
 {\it The Fiducial Run.} As in Mej\'ia et al (2005), the fiducial run exhibits four distinct phases: initial {\sl axisymmetric cooling}, the onset of GIs in a well-defined {\sl burst}, a {\sl transition}, and the {\sl asymptotic} establishment of quasi-steady chaotic GI-activity with an overall balance of heating and cooling. There is no fragmentation because this disk has a long cooling time (see Gammie 2001; Boley et al. 2006, 2007b).
 
 %Scott: A number of things in this paragraph need to verified by further analysis.
-{\it The $t = 0$ Planet Run.} {\bf See note in Latex file.} Figure 1 shows that inclusion of even this modest mass planet ($0.8 \%$ of $M_d$) has a dramatic effect on the burst phase. Without a planet, when all modes grow from imposed noise, it takes 4 ORPs for coherent spiral modes to organize and grow to nonlinear amplitude. The growth is centered near the $Q$-minimum at ??? AU. Modes of cos($m\phi$) symmetry with $m =$ 5 and 6 dominate. An $m = 3$ (three-armed) spiral also grows somewhat more slowly, but lags the other modes in time. In the $t = 0$ planet run, the planet develops an organized wake within about an ORP in which $m = 3$ is a dominant component ($\sim 5$ \% global density perturbation). This nonlinear seeding causes $m = 3$ to dominates the GI burst, which also occurs $\sim$ 2 ORPs earlier. Because of our initial placement of the planet inside but close to the $Q$-minimum, the corotation radius (CR) of the $m = 3$ mode is fairly close to that of the planet's orbit period. When the triggered $m = 3$ mode becomes strongly nonlinear at about 3 ORP, planet migration is significantly affected. Figure 2 shows the evolution of the planet's radial position. From 0 to 2.5 ORP, the planet is torqued primarily by its own wake and migrates inward. Beginning at 3 ORP, when the $m = 3$ mode has grown significantly and the planet is lagging one of its arms in azimuth, the planet gains angular momentum and moves outward. At about $t =$ 4 ORP, as the planet overtakes the arm, the sign of the net torque reverses and the planet plunges from 23 to 17 AU in about 4 ORP (10$^3$ yr). During this time, the planet and mode seem to interact strongly enough that the planet essentially surfs along the arm, maintaining a location within the arm as it plunges. After $t =$ 8 ORP, the main burst is over, and the disk transitions into its asymptotic state, where modes of many $m$-values are comparably strong. The planet's radial migration apparently stalls at about 16 to 17 AU. From an analysis of periodicities present in the gas disk between 8 and 12 ORP, the planet lies a few AU inside the inner Lindblad resonance of a strong $m = 2$ mode with CR at ??? AU in the GI-active disk. 
+{\it The $t = 0$ Planet Run.} {\bf See note in Latex file.} Figure \ref{fig:Am} shows that inclusion of even this modest mass planet ($0.8 \%$ of $M_d$) has a dramatic effect on the burst phase. Without a planet, when all modes grow from imposed noise, it takes 4 ORPs for coherent spiral modes to organize and grow to nonlinear amplitude. The growth is centered near the $Q$-minimum at ??? AU. Modes of cos($m\phi$) symmetry with $m =$ 5 and 6 dominate. An $m = 3$ (three-armed) spiral also grows somewhat more slowly, but lags the other modes in time. In the $t = 0$ planet run, the planet develops an organized wake within about an ORP in which $m = 3$ is a dominant component ($\sim 5$ \% global density perturbation). This nonlinear seeding causes $m = 3$ to dominates the GI burst, which also occurs $\sim$ 2 ORPs earlier. Because of our initial placement of the planet inside but close to the $Q$-minimum, the corotation radius (CR) of the $m = 3$ mode is fairly close to that of the planet's orbit period. When the triggered $m = 3$ mode becomes strongly nonlinear at about 3 ORP, planet migration is significantly affected. Figure \ref{fig:a} shows the evolution of the planet's radial position. From 0 to 2.5 ORP, the planet is torqued primarily by its own wake and migrates inward. Beginning at 3 ORP, when the $m = 3$ mode has grown significantly and the planet is lagging one of its arms in azimuth, the planet gains angular momentum and moves outward. At about $t =$ 4 ORP, as the planet overtakes the arm, the sign of the net torque reverses and the planet plunges from 23 to 17 AU in about 4 ORP (10$^3$ yr). During this time, the planet and mode seem to interact strongly enough that the planet essentially surfs along the arm, maintaining a location within the arm as it plunges. After $t =$ 8 ORP, the main burst is over, and the disk transitions into its asymptotic state, where modes of many $m$-values are comparably strong. The planet's radial migration apparently stalls at about 16 to 17 AU. From an analysis of periodicities present in the gas disk between 8 and 12 ORP, the planet lies a few AU inside the inner Lindblad resonance of a strong $m = 2$ mode with CR at ??? AU in the GI-active disk. 
 
 %Scott: Even more work is needed to verify what is said here. Some of what I wrote is pure speculation and needs to be checked.
 {\it The $t = 10$ Planet Run.} {\bf See note in Latex file.} The motion of the planet in this case is more difficult to interpret. We see intervals of fairly rapid inward or outward migration over several orbits, as well as times when radial migration appears to stall. Between $t = 15$ and 19 ORP, the pattern of outward migration for 2 ORP followed by an inward plunge over the next 2 ORP resembles the behavior in the $t = 0$ planet run during the burst, but, in this case, there is no distinct phase of GI activity. Animations of the simulation show there is a complex interaction between the planet, its spiral wake, and the global spiral arms caused by the instabilities. Analysis of images and periodicities suggests that, between 15 and 19 ORP, the planet may have passed through an arm of an $m =$ ??? pattern with CR at ??? AU. It is possible that the planet actually stimulated this particular mode, in manner similar to what occurred in the $t = 0$ planet run, because this $m =$ ??? periodicity is absent over the same time interval in the fiducial run.
 
-{\it Eccentiricity.} Figure 3 shows the evolution of $e$ in the planet simulations. In both cases, the planets were inserted with an approximate circular velocity computed by adding the interior disk mass to the stellar point mass. The presence of GI activity in the $t = 10$ planet run immediately increases $e$ to $\sim 0.08$. In the $t = 0$ planet run, the modest initial $e$ decreases, as it should (ref ???), during the 1.5 ORP when it is migrating only due to its own wake. However, once there are strong nonlinear interactions with GI modes, $e$ jumps upward. In both runs, it appears that interaction with well-established GI activity leads to eccentricities between 0.02 and 0.1 that vary in a chaotic way between these extremes on a short time scale. 
+{\it Eccentiricity.} Figure \ref{fig:e} shows the evolution of $e$ in the planet simulations. In both cases, the planets were inserted with an approximate circular velocity computed by adding the interior disk mass to the stellar point mass. The presence of GI activity in the $t = 10$ planet run immediately increases $e$ to $\sim 0.08$. In the $t = 0$ planet run, the modest initial $e$ decreases, as it should (ref ???), during the 1.5 ORP when it is migrating only due to its own wake. However, once there are strong nonlinear interactions with GI modes, $e$ jumps upward. In both runs, it appears that interaction with well-established GI activity leads to eccentricities between 0.02 and 0.1 that vary in a chaotic way between these extremes on orbit period time scales. 
 
-{\it Migration Relative to the Disk.} The disk surface density distribution does not vary much in the asymptotic phase. So radial motion of the planet in the $t = 10$ planet run is also radial migration relative to the gas. During the burst (see, e.g., Boley et al. 2006), however, the surface density of the disk changes dramatically. To verify that the planet is really migrating relative to the background gas disk in the $t = 0$ run, we have compared the planet's radius $\varpi_p(t)$ with the mass inside that radius, expressed in terms of $m_{\rm cyl}$, the fraction of the disk mass interior to the planet. Between $t = 3.52$ and $3.89$ ORP, when $\varpi_p$ increases modestly, $m_{\rm cyl}$ increases from about 0.50 to 0.53; between 3.89 and 8.47 ORP, when $\varpi_p$ decreases dramatically, $m_{\rm cyl}$ decreases from 0.53 to only 0.30. So, the planet is migrating significantly with respect to the disk mass even while the inner part of the gas disk moves inward during the burst. For a comparison measure of the magnitude of the gas motion, $m_{\rm cyl}$ at 23 AU increases from 0.50 to 0.60 from $t =$ 3.89 to 8.47 ORP.
+{\it Migration Relative to the Disk.} The disk surface density distribution does not vary much in the asymptotic phase, so radial motion of the planet in the $t = 10$ planet run also represents radial migration relative to the gas. During the burst (e.g., Boley et al. 2006), the surface density of the disk changes dramatically. To verify that the planet is really migrating relative to the background gas disk in the $t = 0$ run, we have compared the evolution of the planet's radial position $\varpi_p(t)$ with the mass inside that radius, expressed in terms of $m_{\rm cyl}$, the fraction of the disk mass interior to the planet. Between $t = 3.52$ and $3.89$ ORP, when $\varpi_p$ increases modestly, $m_{\rm cyl}$ increases from about 0.50 to 0.53; between 3.89 and 8.47 ORP, when $\varpi_p$ decreases dramatically, $m_{\rm cyl}$ also decreases dramatically from 0.53 to 0.30. So, the planet is migrating significantly with respect to the disk mass even while the inner part of the gas disk is moving inward during the burst. For a comparison measure of the magnitude of the gas motion, $m_{\rm cyl}$ at 23 AU increases from 0.50 to 0.60 from $t =$ 3.89 to 8.47 ORP, corresponding to an gas disk inflow rate of $\sim 10^{-5} M_{\odot}/{\rm yr}$.
 
 \section{Discussion}
 
-Check against estimated type I migration without GIs. {\bf Aaron: Can you do this?} Figure 2 suggests that the overall radial drift is not too different, but it is definitely not monotonic and can stall. Further work is needed to determine how long the stalls last.
+{\bf See notes in Latex file.}
+%Scott and Aaron: This section needs a lot of help.
 
-Generic relationship to Laughlin's work. Just a few sentences -- structure (gaps, embedded masses) affects GI stability and the modes that grow.
+Check against estimated type I migration without GIs. 
+%Aaron: Can you do this?} 
+Figure \ref{fig:a} suggests that the overall radial drift is not too different, but it is definitely not monotonic and can stall. Further work is needed to determine how long the stalls last.
 
-Discrete mode interactions with the planet seem important -- Wind up and pitch. Surfing. 
+Even in non-self-gravitating disks, the presence of discrete radial structure is known to cause instabilities (Li and Lovelace articles abound 2000, 2001). Meschiari \& Laughlin (2008) recently demonstrated that a gap, presumably opened by an embedded planet, can cause global modes to become unstable in self-gravitating disks that are otherwise stable against the development of GIs. Here we are dealing with a planet that is not massive enough to open a gap, but its gravitational interaction with the disk also has a strong effect on the growth and onset of GIs.
+
+Discrete mode interactions with the planet seem important -- Wind up and pitch? Surfing?
 
 Stalling at LRs?
 In both cases it is interesting to note that inward migration halts near 17 AU (coincidence???) ; this may be an artifact of the length of the simulations, clearly both simulations should be carried further. This radius is interesting because it is the location of the Inner Linblad Resonance (ILR) for the strong m = 2 mode present in the baseline simulation. Inside the ILR the mode can not effectively transfer angular momentum between the disk and the planet. Further work is necessary to adequately analyze the Fourier modes and their periodicities in the simulations with planets, but this gives a strong preliminary indication that the GI activity is driving the migration. Furthermore, where GIs are inactive planet migration is stalled, even Type I migration may be ineffective due to interference from the GIs at the planet’s OLR.
 
-Probably not a random walk for this mass and this disk. Need to know dependence on planet mass and initial location.
+Not a simple random walk for this mass and this disk. Need to know dependence on planet mass and initial location.
 
-Magnitude of e.
+Magnitude of $e$ is roughly consistent with $c_s/v_K$ and low Mach number spirals.
 
-\section{Summary}
-
-The inclusion of a 1MJup mass in the equilibrium disk initiates GIs and dramatically effects the character of the GIs.
-GIs can cause both inward and outward planet migration and can cause rapid migration in the burst phase.
+The inclusion of a 1$M_J$ mass in the equilibrium disk initiates GIs and dramatically effects the character of the GIs. GIs can cause both inward and outward planet migration and can cause rapid migration in the burst phase.
 GIs can have a strong effect on the orbital eccentricity of the included planet.
 
 \section{Acknowledgments}
@@ -232,23 +234,32 @@ Vorobyov, E.I., Basu, S. 2010, ApJ, 714, L133
 
 \newpage
 
-\begin{center}
-{\large\bf Figure Captions}
-\end{center}
+\begin{figure}[t]
+\center
+\includegraphics[width=12cm]{../Figures/planeta.pdf}
+\caption{Global amplitudes of nonaxisymmetric density perturbations $A_m$ as a function of time for individual cos($m\phi$) perturbations. The formula for computing $A_m$ is equation (15) of Boley et al. (2006). Here the integrals are done only over the disk outside 15 AU to suppress contributions from edge effects in the inner disk. The set of red and black curves correspond to the $t = 0$ and $t = 10$ planet runs, respectively. {\bf The radial migration plot is being used as a placeholder.}}
+\label{fig:Am}
+\end{figure}
 
-{\bf Figure 1.}  Am plot.
+\begin{figure}[t]
+\center
+\includegraphics[width=12cm]{../Figures/planeta.pdf}
+\caption{Plot of the planet's radial position as a function of time $\varpi_p(t)$ for the two planet simulations. The red and black indicate the curves ($\varpi(t)$), points ($a$), and horizontal scales ($t$) that correspond to the $t = 0$ and $t = 10$ planet runs, respectively. The diamonds are the approximate semi-major axes $a$ computed for each 0 to 2$\phi$ change in azimuth of the planet as explained in the text.}
+\label{fig:a}
+\end{figure}
 
-\begin{center}
-{\large\bf Figure Captions}
-\end{center}
+\begin{figure}[t]
+\center
+\includegraphics[width=12cm]{../Figures/planete.pdf}
+\caption{Plot of the eccentricities $e$, computed for each 0 to 2$\phi$ change in azimuth of the planet as explained in the text, as a function of time. The red and black indicate the points ($e$) and horizontal scales ($t$) that correspond to the $t = 0$ and $t = 10$ planet runs, respectively.}
+\label{fig:e}
+\end{figure}
 
-{\bf Figure 2.}  Plot of r(t) for the point mass in two simulations. The red curve shows the planet’s position when included at t = 0, the black curve for the planet inserted at t = 10 ORPs.  The diamonds track the semi-major axis for each 0 to 2π interval. Figure 2 shows the planet radius over time for both the t = 0 simulation (red) and the t = 10 ORPs simulation (black). The diamonds represent the semi-major axis for each 0 to 2π interval. As can be seen in Figure 2, for the t = 0 simulation the planet begins to drift inward, presumably due to Type 1 migration, and then moves inward rapidly once the burst of GI activity begins around 3.5 ORPs.
-
-\begin{center}
-{\large\bf Figure Captions}
-\end{center}
-
-{\bf Figure 3.}  Plot of the eccentricities for each of the 0 to 2π intervals for the t = 0 (red) simulation and t = 10 ORPs (black).  
+%\begin{figure}[t]
+%\includegraphics{../Figures/name_of_figure.eps}
+%\caption{here's the caption}
+%\label{fig:name}
+%\end{figure}
 
 \label{lastpage}
 
