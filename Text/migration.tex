@@ -3,6 +3,8 @@
 \documentclass[12pt,manuscript,authoryear]{aastex}
 
 \usepackage{graphicx}
+\citestyle{aa}
+\usepackage{natbib}
 
 \begin{document}
 
@@ -12,7 +14,7 @@
 
 \author{Scott Michael}
 \affil{Department of Astronomy, Indiana University, Bloomington, IN 47405}
-\email{scamicha@astro.indiana.edu}
+\email{scamicha@indiana.edu}
 
 \and
 
@@ -43,7 +45,7 @@ Planet orbit eccentricity tends to fluctuate rapidly and ranges between about 0.
 
 {\bf See note in Latex file.} 
 %Scott: File in some references you know now. Aaron: Suggestions on references?
-Migration of gas giant planets due to interactions with a circumstellar gas disk probably plays a major role in defining the architecture of planetary systems (e.g., ???). Work on migration (see review by ???  Balbus \& Terquem or Papaloizou ???) has included gravitational interaction of planets with both laminar and turbulent disks. However,  the self-gravity of the gas disk has usually been ignored, and the effects of radiative cooling and a detailed equation of state (EOS) have only recently been included (Paardekooper ???). Boss (2004 ???) and Mayer et al. (2004) examined radial migration of planet-mass fragments in gravitationally unstable disks, but their disks were violently disrupted by fragmentation under conditions (radii $<$ 40 AU, disk-to-star mass ratios $M_d/M_s \sim 0.1$, and stellar mass $M_s \sim 1\;M_{\odot}$) where this probably should not realistically have happened (Rafikov 2005, 2007; Boley et al. 2006, 2007b; Boley \& Durisen 2008; Forgan et al. 2009; Cai et al. 2010). More recently, fragmentation into clumps with gas giant or brown dwarf masses has been documented in disks that are relatively massive ($M_d/M_s \sim$ a few tenths) and spatially extended (outer radii $>$ 100 AU) (Krumholz et al. 2007; Stamatellos \& Whitworth 2007, 2009, Boley 2009; Hayfield et al. 2010), where fragmentation is expected from semi-analytic arguments (e.g., Clarke ???, Rafikov 2009, Dobson-Robinson et al. 2009). The fate of the clumps depends in part on their radial migration, which is a chaotic and messy affair in a fragmenting disk (e.g., Boley 2009, Boley et al. 2010, Vorobyov \& Basu 2010; Boley \& Durisen 2010). The occurrence of gravitational instabilities (GIs) may be episodic (Vorobyov \& Basu 2005, 2006). Clumps that survive and contract to the dimensions of young planets can later find themselves in a disk that erupts again into GI activity. As the star/disk system evolves, such a protoplanet may end up in a region of a GI-active disk where fragmentation does not occur.
+Migration of gas giant planets due to interactions with a circumstellar gas disk probably plays a major role in defining the architecture of planetary systems (e.g., ???). Work on migration (see review by ???  Balbus \& Terquem or Papaloizou ???) has included gravitational interaction of planets with both laminar and turbulent disks. However,  the self-gravity of the gas disk has usually been ignored, and the effects of radiative cooling and a detailed equation of state (EOS) have only recently been included \citep{paardekooper2006}. \citet{boss2005} and \citet{mayer2004} examined radial migration of planet-mass fragments in gravitationally unstable disks, but their disks were violently disrupted by fragmentation under conditions (radii $<$ 40 AU, disk-to-star mass ratios $M_d/M_s \sim 0.1$, and stellar mass $M_s \sim 1\;M_{\odot}$) where this probably should not realistically have happened \citep{rafikov2005,rafikov2007,boley2006,boley2007b,boley2008,forgan2009,cai2010}. More recently, fragmentation into clumps with gas giant or brown dwarf masses has been documented in disks that are relatively massive ($M_d/M_s \sim$ a few tenths) and spatially extended (outer radii $>$ 100 AU) (Krumholz et al. 2007; Stamatellos \& Whitworth 2007, 2009, Boley 2009; Hayfield et al. 2010), where fragmentation is expected from semi-analytic arguments (e.g., Clarke ???, Rafikov 2009, Dobson-Robinson et al. 2009). The fate of the clumps depends in part on their radial migration, which is a chaotic and messy affair in a fragmenting disk (e.g., Boley 2009, Boley et al. 2010, Vorobyov \& Basu 2010; Boley \& Durisen 2010). The occurrence of gravitational instabilities (GIs) may be episodic (Vorobyov \& Basu 2005, 2006). Clumps that survive and contract to the dimensions of young planets can later find themselves in a disk that erupts again into GI activity. As the star/disk system evolves, such a protoplanet may end up in a region of a GI-active disk where fragmentation does not occur.
 
 To improve our understanding of how planets migrate in GI-active disks that are not fragmenting, we have begun a systematic study, using numerical 3D radiative hydrodynamics, where we investigate the effects on both the disk and the planet of inserting a planet-mass object into disks susceptible to GIs. Using techniques deployed in earlier research by our group (Pickett et al. 2003; Mej\'ia et al. 2005; Cai et al. 2006, 2008; Boley et al 2006, 2007b), we can identify the dominant spiral waves in a simulation and analyze how the waves interact with the planet's motion. Our goal is to determine both the effect of giant planets on GIs and the effect of GIs on planet migration. Because GIs are sensitive to radiative physics, we use a well-tested radiative scheme (Boley et al. 2007b) and realistic opacities (D'Alessio et al. 2001).  
 
@@ -105,132 +107,10 @@ GIs can have a strong effect on the orbital eccentricity of the included planet.
 
 \section{Acknowledgments}
 
-The authors would like to thank F.C. Adams and J.C.B. Papaloizou for useful encouragement in this project. The research was conducted with the support of NASA grants from the Origins of Solar Systems  Program (NNG05GN11G and NNX08AK36G). {\bf Scott: Add necessary UITS and Teragrid acknowledgments.}
+The authors would like to thank F.C. Adams and J.C.B. Papaloizou for useful encouragement in this project. The research was conducted with the support of NASA grants from the Origins of Solar Systems  Program (NNG05GN11G and NNX08AK36G). This material is based upon work supported by the National Science Foundation under Grants No. ACI-0338618l, OCI-0451237, OCI-0535258, OCI-0504075, and CNS-0521433. Any opinions, findings and conclusions or recommendations expressed in this material are those of the authors and do not necessarily reflect the views of the National Science Foundation.
 
-\begin{thebibliography}{99}
-
-\bibitem[\protect\citeauthoryear{Boley}{2009}]{boley09} 
-Boley,  A.C. 2009, ApJ, 695, L53 
-
-\bibitem[\protect\citeauthoryear{Boley \& Durisen}{2006}]{bd06} Boley, A.C., Durisen, R.H. 2006, ApJ, 641, 534
-
-\bibitem[\protect\citeauthoryear{Boley \& Durisen}{2008}]{bd08} Boley, A.C., Durisen, R.H. 2008, ApJ, 685, 1193
-
-\bibitem[\protect\citeauthoryear{Boley et al.}{2006}]{boley06} Boley, A.C., 
-Mej\'ia, A.C., Durisen, R.H., Cai, K., Pickett, M.K. 2006, ApJ, 651, 517
-
-\bibitem[\protect\citeauthoryear{Boley et al.}{2007}]{boley07} Boley, A.C., 
-Durisen, R.H., Nordlund, A., Lord, J. 2007, ApJ, 665, 1254 
-
-\bibitem[\protect\citeauthoryear{Boley et al.}{2009}]{boleyetal09} Boley, A.C., 
-Hayfield, T., Mayer, L., Durisen, R.H.  2010, Icarus, in press (arXiv:0909.4543)
-
-\bibitem[\protect\citeauthoryear{Boss}{1984}]{boss84} Boss, A.P. 1984, ApJ, 277, 768
-
-\bibitem[\protect\citeauthoryear{Boss}{1997}]{boss97} Boss, A.P. 1997, Science, 267, 1836
-
-\bibitem[\protect\citeauthoryear{Boss}{1998}]{boss98} Boss, A.P. 1998, ApJ, 503, 923
-
-\bibitem[\protect\citeauthoryear{Boss}{2000}]{boss00} Boss, A.P. 2000, ApJ, 536, L101
-
-\bibitem[\protect\citeauthoryear{Boss}{2001}]{boss01} Boss, A.P. 2001, ApJ, 563, 367
-
-\bibitem[\protect\citeauthoryear{Boss}{2002}]{boss02} Boss, A.P. 2002, ApJ, 576, 462
-
-\bibitem[\protect\citeauthoryear{Boss}{2003}]{boss03} Boss, A.P. 2003, ApJ, 599, 577
-
-\bibitem[\protect\citeauthoryear{Boss}{2004}]{boss04} Boss, A.P. 2004, ApJ, 610, 456
-
-\bibitem[\protect\citeauthoryear{Boss}{2005}]{boss05} Boss, A.P. 2005, ApJ, 629, 535
-
-\bibitem[\protect\citeauthoryear{Boss}{2007}]{boss07} Boss, A.P. 2007, ApJ, 661, L73
-
-\bibitem[\protect\citeauthoryear{Boss}{2009}]{boss09} Boss, A.P. 2009, ApJ, 694, 107
-
-\bibitem[\protect\citeauthoryear{Cai et al.}{2006}]{cai06} Cai, K., Durisen, R.H., Michael, S., Boley, A.C., Mej\'ia, A.C., Pickett, M.K., D'Alessio, P. 2006, ApJ, L149
-
-\bibitem[\protect\citeauthoryear{Cai et al.}{2008}]{cai08} Cai, K., Durisen, R.H., Boley, A.C., Pickett, M.K., Mej\'ia, A.C. 2008, ApJ, 673, 1138
-
-\bibitem[\protect\citeauthoryear{Clarke}{2009}]{clarke09} 
-Clarke, C.J. 2009, MNRAS, 396, 1066
-
-\bibitem[\protect\citeauthoryear{D'Alessio et al.}{2001}]{dalessio01} D'Alessio, P., Calvet, N., Hartmann, L. 2001, ApJ, 553, 321
-
-\bibitem[\protect\citeauthoryear{Dodson-Robinson et al.}{2009}]{dodson09}
-Dodson-Robinson, S. E., Veras, D., Ford, E. B., Beichman, C. A. 2009, ApJ, 707, 79
-
-%\bibitem[\protect\citeauthoryear{Durisen, Mej\'ia, \& Pickett}
-%{Durisen et al.}{2003}]{durisen03} Durisen, R.H., Mej\'ia, A.C., 
-
-\bibitem[\protect\citeauthoryear{Durisen et al.}{2007}]{durisen07} Durisen R.H., Boss, A.P., Mayer, L., Nelson, A.F., Quinn, T., Rice, W.K.M. 2007, in: Protostars and Planets V, ed. B. Reipurth, D. Jewitt, \& K. Keil (Tucson:  Univ. of Arizona Press), 607
-
-\bibitem[\protect\citeauthoryear{Durisen et al.}{2008}]{durisen08} 
-Durisen R.H., Hartquis, T.W., \& Pickett M.K., Durisen R.H. 2008, ApSpSci., 317, 3 
-
-\bibitem[\protect\citeauthoryear{Forgan et al.}{2009}]{forg09} Forgan, D., Rice, K., Stamatellos, D., Whitworth, A. 2009, MNRAS 394, 882
-
-\bibitem[\protect\citeauthoryear{Gammie}{2001}]{gammie01} Gammie, C.F. 2001, ApJ, 553, 174 
-
-\bibitem[\protect\citeauthoryear{Johnson \& Gammie}{2003}]{johnson03} 
-Johnson, B.M., Gammie, C.F. 2003, ApJ, 597, 131 
-
-\bibitem[\protect\citeauthoryear{Haisch et al.}{2001}]{haisch01} 
-Haisch, K.E., Jr., Lada, E.A., Lada, C.J. 2001, ApJ, 553, L153
-
-\bibitem[\protect\citeauthoryear{Hayfield et al.}{2010}]{hayfield10}
-Hayfield, T., Mayer, L., Wadsley, J., Boley, A. C. 2010, arXiv:1003.2594
-
-\bibitem[\protect\citeauthoryear{Mayer et al.}{2002}]{mayer02} Mayer, L., Quinn, T. Wadsley, J., Stadel, J. 2002, Science, 298, 1756
-
-\bibitem[\protect\citeauthoryear{Mayer et al.}{2004}]{mayer04} Mayer, L., Quinn, T., Wadsley, J., Stadel, J. 2004, ApJ, 609, 1045 
-
-\bibitem[\protect\citeauthoryear{Mayer et al.}{2007}]{mayer07} 
-Mayer, L., Lufkin, G., Quinn, T., Wadsley, J. 2007, ApJ, L77 
-
-\bibitem[\protect\citeauthoryear{Mej\'ia et al.}{2005}]{mejia05} Mej\'ia, A.C., Durisen, R.H., Pickett, M.K., Cai, K. 2005, ApJ, 619, 1098 
-
-\bibitem[\protect\citeauthoryear{Nelson}{2006}]{nelson06} Nelson A.F. 2006, MNRAS, 373, 1039
-
-\bibitem[\protect\citeauthoryear{Nelson et al.}{1998}]{nelson98} Nelson, A.F., Benz, W., Adams, F.C., Arnett, D. 1998, ApJ, 502, 342 
-
-\bibitem[\protect\citeauthoryear{Nelson, Benz, Ruzmaikina}{Nelson et al.}{2000}]
-{nelson00} Nelson, A.F., Benz, W., Ruzmaikina, T.V. 2000, ApJ, 529, 357 
-
-\bibitem[\protect\citeauthoryear{Pickett et al.}{1998}]{pickett98} Pickett, B.K., Cassen, P., Durisen, R.H., Link, R. 1998, ApJ, 504, 468
-
-\bibitem[\protect\citeauthoryear{Pickett et al.}{2000a}]{pickett00a} Pickett, B.K., Cassen, P., Durisen, R.H., Link, R. 2000, ApJ, 529, 1034
-
-\bibitem[\protect\citeauthoryear{Pickett et al.}{2000b}]{pickett00b} Pickett, B.K., Durisen, R.H., Cassen, P., Durisen, R.H., Mej\'ia, A.C. 2000, ApJ, 540, L95
-
-\bibitem[\protect\citeauthoryear{Pickett et al.}{2003}]{pickett03} Pickett, B.K., Mej\'ia, A.C., Durisen, R.H., Cassen, P., Berry, D.K., Link, R.P. 2003, ApJ, 590, 1060
-
-\bibitem[\protect\citeauthoryear{Pickett \& Durisen}{2007}]{pickett07} 
-Pickett, M.K., Durisen, R.H. 2007, ApJ, 654, L155 
-
-\bibitem[\protect\citeauthoryear{Rafikov}{2005}]{rafikov05} 
-Rafikov,  R.R. 2005, ApJ, 621, L69 
-
-\bibitem[\protect\citeauthoryear{Rafikov}{2007}]{rafikov07} 
-Rafikov,  R.R. 2007, ApJ, 662, 642 
-
-\bibitem[\protect\citeauthoryear{Rafikov}{2009}]{rafikov09} 
-Rafikov,  R.R. 2009, ApJ, 704, 281
-
-\bibitem[\protect\citeauthoryear{Rice et al.}{2003}]{rice03} Rice, W.K.M., Armitage, P.J., Bate, M.R., Bonnell, I.A. 2003, MNRAS, 339, 1025
-
-\bibitem[\protect\citeauthoryear{Rice et al.}{2005}]{rice05} Rice, W.K.M., Lodato, G., Armitage, P.J. 2005, MNRAS, 364, L56 
-
-\bibitem[\protect\citeauthoryear{Stamatellos \& Whitworth}{2008}]{stam08} Stamatellous, D., \& Whitworth, A. 2008, A\& A, 480, 879
-
-\bibitem[\protect\citeauthoryear{Stamatellos \& Whitworth}{2009}]{stam09} Stamatellous, D., \& Whitworth, A. 2009, MNRAS, 392, 413
-
-\bibitem[\protect\citeauthoryear{Vorobyov \& Basu}{2010}]{vb10}
-Vorobyov, E.I., Basu, S. 2010, ApJ, 714, L133
-
-\bibitem[\protect\citeauthoryear{Zhu et al.}{2009}]{zhu09} Zhu, Z., Hartmann, L., Gammie, C.F.; McKinney, J.C. 2009, ApJ, 701, 620
-
-
-\end{thebibliography}
+\bibliographystyle{apj}
+\bibliography{general}
 
 \newpage
 
