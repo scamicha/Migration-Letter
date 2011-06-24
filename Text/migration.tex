@@ -118,15 +118,16 @@ nonaxisymmetry, the density distribution is given an initial 0.01 \% random cell
 
 This Letter presents three simulations. The first, which we call the {\sl fiducial run}, is simulated from time $t = 0$
 to 21 ORP without a planet. In the second simulation, which we call the {\sl t = 0 planet run}, a one Jupiter-mass
-($M_J$) planet with a roughly circular midplane orbit is included in the initial $t = 0$ ORP equilibrium disk at 25
-AU. In the third simulation, which we call the {\sl t = 10 planet run}, a 1 $M_J$ planet with a similar orbit is
-inserted into the fiducial run at $t = 10.5$ ORP. These three simulations are part of a larger suite, to be described
-elsewhere, in which the planet mass is varied. We estimate semi-major axes $a$ and eccentricities $e$ from the planet's
-$\varpi(t)$ by using the maximum and minimum radii, $\varpi_{\rm max}$ and $\varpi_{\rm min}$, over each complete orbit
-of the planet, where one orbit is $\Delta\phi=2\pi$. Specifically, $a = (\varpi_{\rm max}+\varpi_{\rm min})/2$ and $e =
-(\varpi_{\rm max}-\varpi_{\rm min})/(\varpi_{\rm max}+\varpi_{\rm min})$. These parameters are intended to highlight the
-strong orbit-to-orbit variations in the motion of the planet.  A more refined estimate of the orbital elements is
-unnecessary because the potential of the disk, even if were axisymmetric, will cause departures from Keplerian dynamics.
+($M_J$) planet with a roughly circular midplane orbit at 25 AU is included in the initial $t = 0$ ORP equilibrium
+disk. This run investigates the effects of an existing planet on the growth of GIs, which could occur if disk the disk
+undergoes episodic or localized instabilities. In the third simulation, which we call the {\sl t = 10 planet run}, a 1
+$M_J$ planet with a similar orbit is inserted into the fiducial run at $t = 10.5$ ORP. We estimate semi-major axes $a$
+and eccentricities $e$ from the planet's $\varpi(t)$ by using the maximum and minimum radii, $\varpi_{\rm max}$ and
+$\varpi_{\rm min}$, over each complete orbit of the planet, where one orbit is $\Delta\phi=2\pi$. Specifically, $a =
+(\varpi_{\rm max}+\varpi_{\rm min})/2$ and $e = (\varpi_{\rm max}-\varpi_{\rm min})/(\varpi_{\rm max}+\varpi_{\rm
+  min})$. These parameters are intended to highlight the strong orbit-to-orbit variations in the motion of the planet.
+A more refined estimate of the orbital elements is unnecessary because the potential of the disk, even if were
+axisymmetric, will cause departures from Keplerian dynamics.
 
 \section{Results}
 
@@ -204,16 +205,17 @@ Figure \ref{fig:a} suggests that the overall radial drift during the first 10 OR
 different from what one would get by extrapolating the migration due solely to the planet's wake during the first 2 or 3
 ORP, where the average radial migration is about 4$\times10^{-3}$ AU yr$^{-1}$. Although there are no simple formulae
 that are fully applicable to our radiatively cooled disk, using eq. (70) from \citet{tanaka2002} with parameters from
-the simulated disk, we estimate 6$\times10^{-3}$ AU yr$^{-1}$ as an analytic expectation. While the interaction with a
-GI-active disk does not seem to result in a drastically different overall migration rate, the direction and magnitude of
-migration in both simulations is quite variable and seems to depend strongly on interactions of the planet with discrete
-modes in the disk. In $t = 10$ planet run, the overall radial migration rate is similar but is even more erratic in
-direction than in the $t = 0$ planet run. The important departures from laminar disk theory are threefold: the more
-erratic nature of migration, the importance of interactions with discrete low-order modes, and stalling of migration
-near the inner edge of the strongest GI activity. The migration is neither a random walk nor monotonic but has a chaotic
-character due to nonlinear interactions. For all these reasons, it will be important in future studies to explore the
-dependence of the planet's behavior on its mass and on its placement relative to the site of GI-eruptions (for $t = 0$
-type runs) and relative to the CRs of low-order GI modes (for $t = 10$ type runs).
+the simulated disk, we estimate 6$\times10^{-3}$ AU yr$^{-1}$ as an analytic expectation (see figure \ref{fig:hr} for
+disk aspect ratios). While the interaction with a GI-active disk does not seem to result in a drastically different
+overall migration rate, the direction and magnitude of migration in both simulations is quite variable and seems to
+depend strongly on interactions of the planet with discrete modes in the disk. In $t = 10$ planet run, the overall
+radial migration rate is similar but is even more erratic in direction than in the $t = 0$ planet run. The important
+departures from laminar disk theory are threefold: the more erratic nature of migration, the importance of interactions
+with discrete low-order modes, and stalling of migration near the inner edge of the strongest GI activity. The migration
+is neither a random walk nor monotonic but has a chaotic character due to nonlinear interactions. For all these reasons,
+it will be important in future studies to explore the dependence of the planet's behavior on its mass and on its
+placement relative to the site of GI-eruptions (for $t = 0$ type runs) and relative to the CRs of low-order GI modes
+(for $t = 10$ type runs).
 
 In both simulations, the inward migration appears to halt near 17 AU. This may simply be a coincidence, because the
 overall average migration rates are similar, the starting positions are essentially the same, and the calculations have
@@ -230,13 +232,10 @@ Due to the global nature of the GIs and their strong interaction with the embedd
 phase physics are as accurate as possible and detailed analysis of the interaction between the planet and global modes
 is required. Of particular importance is the treatment of cooling in the disk. Although these simulations show some
 similarities to \citet{baruteau2011}, their simulations employ an idealized cooling rate governed by the local dynamical
-timescale while the simulations in this work use the more realistic radiative physics of \citet{boley2007b}. {\bf
-  citations on global vs. local needed} Another primary difference between this work and that of \citet{baruteau2011} is
-the simulations presented here are three dimensional. Many studies have shown that three dimensional simulations are
-necessary to accurately measure the effects of GIs {\bf need some more citations here}. Further in depth analysis of the
-GIs and the interaction between the GIs and the planet will be presented in a future work.
-
-{\bf Say something about possible physical scenarios for t=0 run}
+timescale while the simulations in this work use the more realistic radiative physics of
+\citet{boley2007b}. Three-dimensional simulations with radiative physics are necessary for understanding the evolution
+of spiral structure in vertically stratified disks because shocks and heating along spiral arms can change the disk's
+vertical structure \citep[e.g.][]{boley2006a}, which affects the migration rate of planets.
 
 {\it Summary.} The simulations in this Letter show that a planet of only 1$M_J$ placed near the $Q$-minimum in a
 0.14$M_{\odot}$ disk can hasten the onset of gravitational instabilities and change the nature of the dominant modes
@@ -251,27 +250,14 @@ long periods near the ILRs of dominant global GI-modes.
 
 The authors would like to thank F.C. Adams and J.C.B. Papaloizou for useful encouragement in this project. The research
 was conducted with the support of NASA grants from the Origins of Solar Systems Program (NNG05GN11G and
-NNX08AK36G). S.M. was supported during portions of this research by an NESSP Graduate Fellowship and by Indiana Space
-Grant Consortium Graduate Fellowships; A.C.B. is currently a Sagan Postdoctoral Fellow at U. Florida. This material is
-based upon work supported by the National Science Foundation under Grants No. ACI-0338618l, OCI-0451237, OCI-0535258,
-OCI-0504075, and CNS-0521433, and through TeraGrid resources provided by Indiana University, PSC, SDSC, and
-NCSA. TeraGrid systems are hosted by Indiana University, LONI, NCAR, NCSA, NICS, ORNL, PSC, Purdue University, SDSC,
-TACC, and UC/ANL. Any opinions, findings and conclusions or recommendations expressed in this material are those of the
-authors and do not necessarily reflect the views of the National Science Foundation.
+NNX08AK36G). A.C.B. is currently a Sagan Postdoctoral Fellow at U. Florida. This material is based upon work supported
+by the National Science Foundation under Grants No. ACI-0338618l, OCI-0451237, OCI-0535258, OCI-0504075, and
+CNS-0521433, and through TeraGrid resources provided by Indiana University, PSC, SDSC, and NCSA.
 
 \bibliographystyle{apj}
 \bibliography{general}
 
 \newpage
-
-\begin{figure}[t]
-\center
-\includegraphics[width=12cm]{Figures/hr_migration.eps}
-\caption{(Color figure available in the online version) Plots of the disk aspect ratio $h/r$ as determined by a decrease
-  from midplane density by a factor of $e^2$ for the fiducial and $t=0$ runs (black) at $\approx 10$ ORP and the fiducial and
-  $t=10$ runs (red) at $\approx 20$ ORP.}
-\label{fig:hr}
-\end{figure}
 
 \begin{figure}[t]
 \center
@@ -304,6 +290,15 @@ authors and do not necessarily reflect the views of the National Science Foundat
 \label{fig:e}
 \end{figure}
 
+\begin{figure}[t]
+\center
+\includegraphics[width=12cm]{Figures/hr_migration.eps}
+\caption{(Color figure available in the online version) Plots of the disk aspect ratio $h/r$ as determined by a decrease
+  from midplane density by a factor of $e^2$ for the fiducial and $t=0$ runs (black) at $10.5$ ORP and the fiducial and
+  $t=10$ runs (light gray) at $20.5$ ORP.}
+\label{fig:hr}
+\end{figure}
+
 %\begin{figure}[t]
 %\includegraphics{../Figures/name_of_figure.eps}
 %\caption{here's the caption}
@@ -313,5 +308,3 @@ authors and do not necessarily reflect the views of the National Science Foundat
 \label{lastpage}
 
 \end{document}
-
-
