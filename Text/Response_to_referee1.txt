@@ -1,0 +1,79 @@
+This document contains the authors responses to the initial referee's report for ApJL submission LET26384. Several
+changes have been made to the manuscript. The most significant changes are an expanded discussion section and an
+additional figure, figure 4, depicting the aspect ratio of the disks at different times. Detailed responses to the
+referee's comments follow below.
+
+1. "Even though there are some interesting results in the paper, most of the major results on migration in
+gravitationally unstable disks were already reported in Baruteau et al. (2011). There is therefore no need for fast
+publication as a Letter, especially since there appears to be very little explanation of the results in the current
+manuscript. I would encourage the authors to resubmit a more detailed version of this work to the main journal, in
+particular focusing on the differences of their approach compared to that of Baruteau et al. (2011)."
+
+We believe it is important to note that the paper referenced here by the referee had been accepted to the MNRAS only one
+week before our submission. It appears that the article is currently "in press" and is only publicly available on
+astro-ph. As such we feel it should not block the publication of this article to the ApJL. In addition, as outlined in
+our extended comments in the discussion section, Baruteau et al. use very different physics in their protoplanetary disk
+simulations. The simulations presented in our work are fully three dimensional and use realistic radiative physics,
+while the Baruteau et al. simulations are two dimensional and use an idealized cooling prescription. It has been shown
+by many authors that both 3D and realistic cooling are required to accurately characterize and measure GIs.
+
+2. "The critical dimensionless parameter governing the linearity of planet-disk interactions is q/h^3, where q is the
+mass ratio of the planet - central star, and h is the aspect ratio of the disk. A plot of h(r) would therefore be
+helpful."
+
+Disk aspect ratios for the end of both planet runs and the corresponding time in the fiducial run have been provided in
+figure 4.
+
+3. "Gap formation is governed by above parameter together with viscosity (Crida et al. 2006). In the current set-up,
+gravitational and Reynolds stresses probably strongly depend on radius. A radial plot of the stresses would give some
+insight in gap formation at various locations in the disk."
+
+Although we would like to include such figures and relevant discussion, and will in our future more detailed article,
+the constraints of the Letter format prevent us from doing so.
+
+4. "If the planet does not open up a gap, it is subject to Type I migration. The migration rate can then be very
+sensitive to background temperature and density profiles (Paardekooper et al. 2010). Plots of azimuthally averaged
+surface density and temperature profiles would help to determine whether one would expect inward or outward Type I
+migration."
+
+In fact, one of the main points of the article is that distinctions such as type II, type II, and type III migration,
+which depend on the presence and character of a gap in a laminar disk, need not apply in a GI active disk. Although the
+overall migration rate is similar to that predicted by type I migration theory, the same mechanism is not acting here.
+
+5. "The authors state that they do not resolve the width w of the horseshoe region of the planet. Again, the critical
+parameter is q/h^3. For h=0.1, w should already be larger than the scale height. Even if h=0.2, w should be close to
+h/2. Not resolving w therefore implies not resolving h, which would be quite bad. Are the authors sure they can not
+resolve w?" 
+
+We have removed the statement which led the referee to this conclusion. What we intended to convey was the fact that we
+lack sufficient resolution to accurately measure corotation torques, not that we could not resolve the horseshoe region.
+
+6. "In the introduction, please note that Baruteau & Masset (2008) were actually the first to include self-gravity in
+migration simulations (but in laminar disks only). It is the gravitationally unstable nature of the disk that is new in
+the present study and in Baruteau et al. (2011)."
+
+As this article deals exclusively with GI active disks, and we did not indicate that another article was the first to
+include self-gravity we declined to cite Baruteau & Masset (2008).
+
+7. "I find the 't=0 planet run' difficult to understand. The authors seem to claim that the presence of the planet
+affects the development of GI. How can they justify these initial conditions? If the planet was formed by GI, the disk
+should already be turbulent. If it formed in a laminar disk (or in a previous GI burst), it should already have migrated
+inward."
+
+We have include the following text to illuminate some of the possible scenarios: "This run investigates the effects of
+an existing planet on the growth of GIs, which could occur if disk the disk undergoes episodic or localized
+instabilities."
+
+8. "I am not sure what the role of the ILR of the dominant spiral mode is in stopping the migration of the
+planet. Intuitively, one might expect an ILR to push the planet inward. What does the torque balance look like?"
+
+Again, space limitations prevent us from presenting full torque diagnostics, however they will be presented in our
+follow-up article. As we say in the article, this is an area for further research.
+
+9. "The interaction of the planet with all the GI modes appears to be quite stochastic. It seems to me that very little
+can be concluded from a single run."
+
+The simulations presented here are by no means comprehensive, but are intended to give an indication of what possible
+effects GIs might have on migration, and vice-versa. We provide as much detail for the given runs as allowed in the
+Letter format, including additional planet runs (as will be done in the follow-up article) is not feasible in the
+allowed space.
