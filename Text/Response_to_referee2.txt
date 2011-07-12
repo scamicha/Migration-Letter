@@ -1,0 +1,9 @@
+This document contains the authors responses to the second referee's report for ApJL submission LET26384. The author's
+concern has been addressed by including a sentence in the Discussion section referring to Yu et al. 2010.  Detailed
+responses to the referee's comments follow below.
+
+1. The authors may want to comment on Yu et al 2010, ApJ, 712, 198 that demonstrates the effects on migration of the Li
+et al instabilities cited by the authors. Some of these results somewhat resemble the results of this paper.
+
+Added "The migration is neither a random walk nor monotonic but has a chaotic character due to nonlinear interactions,
+similar to the erratic migration seen in planet/disk simulations with Rossby vortex instabilities \citep{yu2010}."

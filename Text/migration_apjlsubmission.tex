@@ -67,19 +67,18 @@ massive ($M_d/M_s \sim$ a few tenths) and spatially extended (outer radii $>$ 50
 \citep{krumholz2007,stamatellos2007,stamatellos2009,boley2009,boley2010}, where fragmentation is expected from
 semi-analytic arguments \citep[e.g.,][]{clarke2009,rafikov2009,dodson2009}. The fate of the clumps then depends in part
 on their radial migration, which is a chaotic and messy affair in a fragmenting disk
-\citep[e.g.,][]{boley2009,boley2010,vorobyov2010,boley2010b}. The occurrence of gravitational instabilities (GIs) may be
+\citep[e.g.,][]{boley2009,boley2010,vorobyov2010,boley2010b}. The occurrence of gravitational instabilities may be
 episodic \citep[e.g.,][]{vorobyov2006,vorobyov2010b,zhu2010}. Clumps that survive and contract to the dimensions of
 young planets can later find themselves in a disk that erupts again into GI activity. As the star/disk system evolves,
 such a protoplanet may end up in a region of a GI-active disk where fragmentation does not occur.
 
 To improve our understanding of how planets migrate in GI-active disks that are not fragmenting, we have begun a
-systematic study, using numerical 3D radiative hydrodynamics, where we investigate the effects on both the disk and the
-planet of inserting a planet-mass object into disks susceptible to GIs. Using techniques developed in earlier research
-by our group \citep{pickett2003, mejia2005,cai2006,cai2008,boley2006,boley2007b,michael2010}, we can identify the
-dominant spiral waves in a simulation and analyze how the waves interact with the planet's motion. Our goal is to
-determine both the effect of giant planets on GIs and the effect of GIs on planet migration. Because GIs are sensitive
-to radiative physics, we use a well-tested radiative scheme \citep{boley2007b} and realistic opacities
-\citep{dalessio2001}.
+systematic study to investigate the effects on both the disk and the planet by inserting a planet-mass object into disks
+susceptible to GIs. Using techniques developed in earlier research by our group \citep{pickett2003,
+  mejia2005,cai2008,boley2006,boley2007b,michael2010}, we can identify the dominant spiral waves in a simulation and
+analyze how the waves interact with the planet's motion. Our goal is to determine both the effect of giant planets on
+GIs and the effect of GIs on planet migration. Because GIs are sensitive to radiative physics, we use a well-tested
+radiative scheme \citep{boley2007b} and realistic opacities \citep{dalessio2001}.
 
 Section 2 below presents our numerical methods and initial conditions.  We describe the simulation results in \S3, and
 discuss them in \S4.
@@ -212,7 +211,8 @@ depend strongly on interactions of the planet with discrete modes in the disk. I
 radial migration rate is similar but is even more erratic in direction than in the $t = 0$ planet run. The important
 departures from laminar disk theory are threefold: the more erratic nature of migration, the importance of interactions
 with discrete low-order modes, and stalling of migration near the inner edge of the strongest GI activity. The migration
-is neither a random walk nor monotonic but has a chaotic character due to nonlinear interactions. For all these reasons,
+is neither a random walk nor monotonic but has a chaotic character due to nonlinear interactions, similar to the erratic
+migration seen in planet/disk simulations with Rossby vortex instabilities \citep{yu2010}. For all these reasons,
 it will be important in future studies to explore the dependence of the planet's behavior on its mass and on its
 placement relative to the site of GI-eruptions (for $t = 0$ type runs) and relative to the CRs of low-order GI modes
 (for $t = 10$ type runs).
@@ -251,8 +251,7 @@ long periods near the ILRs of dominant global GI-modes.
 The authors would like to thank F.C. Adams and J.C.B. Papaloizou for useful encouragement in this project. The research
 was conducted with the support of NASA grants from the Origins of Solar Systems Program (NNG05GN11G and
 NNX08AK36G). A.C.B. is currently a Sagan Postdoctoral Fellow at U. Florida. This material is based upon work supported
-by the National Science Foundation under Grants No. ACI-0338618l, OCI-0451237, OCI-0535258, OCI-0504075, and
-CNS-0521433, and through TeraGrid resources provided by Indiana University, PSC, SDSC, and NCSA.
+by the National Science Foundation under Grants No. OCI-0451237, OCI-0535258, OCI-0504075, and through TeraGrid resources provided by Indiana University, PSC, and NCSA.
 
 \begin{thebibliography}{48}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
@@ -300,11 +299,6 @@ CNS-0521433, and through TeraGrid resources provided by Indiana University, PSC,
   {Mej{\'{\i}}a}}]{cai2008}
 {Cai}, K., {Durisen}, R.~H., {Boley}, A.~C., {Pickett}, M.~K., \&
   {Mej{\'{\i}}a}, A.~C. 2008, ApJ, 673, 1138
-
-\bibitem[{{Cai} {et~al.}(2006){Cai}, {Durisen}, {Michael}, {Boley},
-  {Mej{\'{\i}}a}, {Pickett}, \& {D'Alessio}}]{cai2006}
-{Cai}, K., {Durisen}, R.~H., {Michael}, S., {Boley}, A.~C., {Mej{\'{\i}}a},
-  A.~C., {Pickett}, M.~K., \& {D'Alessio}, P. 2006, ApJL, 636, L149
 
 \bibitem[{{Cai} {et~al.}(2010){Cai}, {Pickett}, {Durisen}, \&
   {Milne}}]{cai2010}
@@ -437,6 +431,10 @@ CNS-0521433, and through TeraGrid resources provided by Indiana University, PSC,
 \bibitem[{{Ward} \& {Hahn}(2003)}]{ward2003}
 ---. 2003, AJ, 125, 3389
 
+\bibitem[{{Yu} {et~al.}(2010){Yu}, {Li}, {Li}, {Lubow}, \& {Lin}}]{yu2010}
+{Yu}, C., {Li}, H., {Li}, S., {Lubow}, S.~H., \& {Lin}, D.~N.~C. 2010, ApJ,
+  712, 198
+
 \bibitem[{{Zhu} {et~al.}(2010){Zhu}, {Hartmann}, \& {Gammie}}]{zhu2010}
 {Zhu}, Z., {Hartmann}, L., \& {Gammie}, C. 2010, ApJ, 713, 1143
 
@@ -446,7 +444,7 @@ CNS-0521433, and through TeraGrid resources provided by Indiana University, PSC,
 
 \begin{figure}[t]
 \center
-\includegraphics[width=12cm]{Figures/amt.eps}
+\includegraphics[width=12cm]{amt.eps}
 \caption{(Color figure available in the online version) Global amplitudes of nonaxisymmetric density perturbations $A_m$
   as a function of time for individual cos($m\phi$) perturbations. The formula for computing $A_m$ is equation (15) of
   \citep{boley2006}. Here the integrals are done only over the disk outside 15 AU to suppress contributions from edge
@@ -457,7 +455,7 @@ CNS-0521433, and through TeraGrid resources provided by Indiana University, PSC,
 
 \begin{figure}[t]
 \center
-\includegraphics[width=12cm]{Figures/planeta.eps}
+\includegraphics[width=12cm]{planeta.eps}
 \caption{Plot of the planet's radial position as a function of time $\varpi_p(t)$ for the two planet simulations. The
   dashed-diamond and solid-star lines (colored red and black in the online version) indicate the curves ($\varpi(t)$),
   points ($a$), and horizontal scales ($t$) that correspond to the $t = 0$ and $t = 10$ planet runs, respectively. The
@@ -468,7 +466,7 @@ CNS-0521433, and through TeraGrid resources provided by Indiana University, PSC,
 
 \begin{figure}[t]
 \center
-\includegraphics[width=12cm]{Figures/planete.eps}
+\includegraphics[width=12cm]{planete.eps}
 \caption{Plot of the eccentricities $e$, computed for each 0 to 2$\phi$ change in azimuth of the planet as explained in
   the text, as a function of time. The diamonds and stars (colored red and black in the online version) indicate the
   points ($e$) and horizontal scales ($t$) that correspond to the $t = 0$ and $t = 10$ planet runs, respectively.}
@@ -477,7 +475,7 @@ CNS-0521433, and through TeraGrid resources provided by Indiana University, PSC,
 
 \begin{figure}[t]
 \center
-\includegraphics[width=12cm]{Figures/hr_migration.eps}
+\includegraphics[width=12cm]{hr_migration.eps}
 \caption{(Color figure available in the online version) Plots of the disk aspect ratio $h/r$ as determined by a decrease
   from midplane density by a factor of $e^2$ for the fiducial and $t=0$ runs (black) at $10.5$ ORP and the fiducial and
   $t=10$ runs (light gray) at $20.5$ ORP.}
